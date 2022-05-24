@@ -1,2 +1,2 @@
 # basecamp-reloaded
-Base camp reloaded exercises 
+Basecamp reloaded exercises 
