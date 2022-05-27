@@ -6,7 +6,7 @@
 /*   By: emetras- <emetras-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 17:43:01 by emetras-          #+#    #+#             */
-/*   Updated: 2022/05/25 14:23:27 by emetras-         ###   ########.fr       */
+/*   Updated: 2022/05/27 16:03:10 by emetras-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strdup(char *src)
 	int		i;
 
 	i = 0;
+	if (sizeof(src) < 1)
+		return (NULL);
 	p = malloc(sizeof(src));
 	while (src[i])
 	{
