@@ -6,12 +6,11 @@
 /*   By: emetras- <emetras-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 17:43:01 by emetras-          #+#    #+#             */
-/*   Updated: 2022/05/29 03:19:45 by emetras-         ###   ########.fr       */
+/*   Updated: 2022/05/30 01:26:55 by emetras-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -39,7 +38,6 @@ char	*ft_strdup(char *src)
 		p[i] = src[i];
 		i++;
 	}
-	printf("%d", i);
 	p[i] = '\0';
 	return (p);
 }
