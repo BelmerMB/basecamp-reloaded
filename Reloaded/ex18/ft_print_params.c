@@ -6,16 +6,11 @@
 /*   By: emetras- <emetras-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:16:40 by emetras-          #+#    #+#             */
-/*   Updated: 2022/05/23 18:39:53 by emetras-         ###   ########.fr       */
+/*   Updated: 2022/05/29 03:34:42 by emetras-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	ft_print_params(int c, char **v)
 {

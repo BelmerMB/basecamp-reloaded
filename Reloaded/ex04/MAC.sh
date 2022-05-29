@@ -1,2 +1,2 @@
 #/bin/bash
-ifconfig | grep RX
+ifconfig | grep ether | awk {'print $2'}
